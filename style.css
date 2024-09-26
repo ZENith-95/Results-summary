@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: hank;
+  src: url(./Assets/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+.main {
+  font-family: hank;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 200px;
+}
+
+.main .content {
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 10px 20px 20px hsla(241, 100%, 89%, 0.589);
+  height: 590px;
+  width: 800px;
+}
+
+.main .content .left-div {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  border-radius: 30px;
+  color: white;
+  padding: 35px;
+}
+
+.main .content .left-div .res {
+  font-size: 22px;
+  font-weight: 500;
+  color: hsl(221, 100%, 96%);
+}
+
+.main .content .left-div .result {
+  height: 220px;
+  width: 220px;
+  margin: 40px 0px 40px 0px;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main .content .left-div .result h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.main .content .left-div .result h4 {
+  font-weight: 300;
+  font-size: 18px;
+  color: hsl(221, 100%, 96%);
+}
+
+.main .content .left-div .comments {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px 20px 10px;
+  justify-items: center;
+  align-items: center;
+  /* background-color: aqua; */
+  height: 200px;
+}
+
+.main .content .left-div .comments h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.main .content .left-div .comments p {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 400;
+  color: hsl(221, 100%, 96%);
+}
+
+.main .content .right-div {
+  padding: 40px;
+  width: 400px;
+}
+
+.main .content .right-div h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.main .content .right-div .reaction {
+  background-color: hsla(0, 100%, 67%, 0.062);
+  height: 70px;
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  /* gap: 15px; */
+}
+
+.main .content .right-div .param {
+  height: 70px;
+  width: 100%;
+  border-radius: 10px;
+  margin: 15px 0px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  /* gap: 5px; */
+}
+
+.main .content .right-div .reaction .l-param {
+  color: hsl(0, 100%, 67%);
+}
+
+.main .content .right-div .memory .l-param {
+  color: hsl(39, 100%, 56%);
+}
+
+.main .content .right-div .verbal .l-param {
+  color: hsl(166, 100%, 37%);
+}
+
+.main .content .right-div .visual .l-param {
+  color: hsl(234, 85%, 45%);
+}
+
+.main .content .l-param {
+  display: flex;
+  gap: 15px;
+  width: 120px;
+  /* background-color: aqua; */
+}
+
+.main .content .right-div .h-perc {
+  color: hsl(224, 6%, 66%);
+  font-weight: 500;
+}
+
+.main .content .right-div .memory {
+  background-color: hsla(39, 100%, 56%, 0.055);
+}
+
+.main .content .right-div .verbal {
+  background-color: hsla(166, 100%, 37%, 0.082);
+}
+
+.main .content .right-div .visual {
+  background-color: hsla(234, 85%, 45%, 0.062);
+}
+
+.main .content .right-div .continue {
+  font-size: 23px;
+  font-weight: 400;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+  height: 60px;
+  margin: 50px 0px 0px 0px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
