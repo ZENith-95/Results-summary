@@ -20,7 +20,7 @@
 .main .content {
   display: flex;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 21px;
   box-shadow: 10px 20px 20px hsla(241, 100%, 89%, 0.589);
   height: 590px;
   width: 800px;
